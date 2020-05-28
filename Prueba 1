@@ -10,7 +10,7 @@ void lista (void);
 void buscar (void);
 void buscarSI (void);
 void borrar (void);
-void notas (void);
+
 
 struct billetera{
  char nombre[20];
@@ -111,7 +111,7 @@ void crear(){
   gets (moneda[i].nombre);
   printf ("Introducir siglas: ");
   scanf ("%s", moneda[i].siglas);
-  printf ("¿Termino el registro?\n");
+  printf ("Â¿Termino el registro?\n");
   printf("1.-Si\n");
   printf("2.-No\n");
   scanf ("%d", &ter);
@@ -187,7 +187,7 @@ void borrar (){
    printf ("\n%s", moneda[i].nombre);
    printf ("\n%s", moneda[i].siglas);
  
-  printf ("\n¿Esta seguro de querer borrar este registro?\n");
+  printf ("\nÂ¿Esta seguro de querer borrar este registro?\n");
   printf("1.-Si. \n 2.-NO");
   scanf ("%d", &k);
   if (k=1){
